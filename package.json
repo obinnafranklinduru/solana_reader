@@ -1,0 +1,21 @@
+{
+  "name": "solana_reader",
+  "version": "1.0.0",
+  "description": "Efficient Solana Blockchain data reading for seamless integration into decentralized applications and projects",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [],
+  "author": "Duru Obinna Franklin",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
